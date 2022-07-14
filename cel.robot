@@ -7,7 +7,7 @@ ${browser}      chrome
 ${username}     completeHere
 ${password}     completeHere
 *** Test Cases ***
-Login
+LoginAndBuy
     open browser    ${url}      ${browser}
     maximize browser window
     input text    id:email_address      ${username}
